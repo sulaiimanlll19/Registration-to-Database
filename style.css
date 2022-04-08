@@ -1,0 +1,94 @@
+
+
+body{
+
+    margin: 0 auto;
+    background-color: rgb(28, 24, 66);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#form-Section{
+    text-align: center;
+
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-right: 28%;
+    margin-left: 28%;
+
+    background-color: rgb(7, 9, 37);
+    height: 480px;
+    width: 400px;
+    border-radius: 10px;
+    display: inline-block;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#Register-h1{
+    font-size: 20pt;
+}
+
+#username-input, #password-input, #email-input{
+
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+    border-style: none;
+    border: 0px;
+    border-bottom: 1px solid rgb(135, 219, 110);
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    background-color: rgb(7, 9, 37);
+}
+
+#username-input::selection, #password-input::selection{
+
+    background-color: rgb(135, 219, 110);
+}
+
+#Agree-input{
+    border: 0px;
+    padding: 5px;
+    border-radius: 20px;
+
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#Register-butt{
+    padding: 10px;
+    margin: 20px;
+    border: 0px;
+    width: 120px;
+    border-radius: 8px;
+}
+
+#Register-butt:hover{
+
+    color: white;
+    background-color: rgb(135, 219, 110);
+    box-shadow: 0px 0px;
+    transition: all 0.8s;
+}
+
+#login-paragraph{
+    font-size: 10pt;
+    text-decoration: none;
+    margin: 3px;
+}
+
+#login-paragraph:hover{
+    opacity: 0.8;
+}
+
+footer{
+    font-size: 10pt;
+    padding: 20px;
+    background-color: rgb(7, 9, 37);
+}
+
