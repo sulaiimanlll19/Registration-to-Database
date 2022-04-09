@@ -1,5 +1,5 @@
 # Registration-to-Database
-Making a registration page connect with a database with out repeating
+Making a registration page connect with a database with out repeating users info
 
 Steps: 
   - Making a registration page
